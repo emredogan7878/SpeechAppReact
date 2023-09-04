@@ -1,0 +1,105 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  background-color: #f3edd9; 
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+}
+.app-logo {
+  width: 100px; /* İstenilen boyutu ayarlayabilirsiniz */
+  vertical-align: middle;
+  margin-right: 10px; /* Yazı ile görsel arasında boşluk bırakmak için */
+}
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 36px; /* Başlık boyutu büyütüldü */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Metin gölgelendirmesi */
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.file-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px dashed #0077cc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f0f8ff;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.file-input:hover {
+  border-color: #005ea6;
+}
+
+.file-input p {
+  margin: 0;
+  color: #0077cc;
+  font-weight: bold;
+}
+
+
+
+.transcript-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.transcript-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  transition: box-shadow 0.3s ease;
+}
+
+.transcript-card:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.transcript-card h2 {
+  color: #0077cc; 
+  text-align: center;
+}
+
+.transcript-card p {
+  color: #555; 
+  text-align: left;
+}
+
+
+.convert-button {
+  background-color: #00aaff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.convert-button:hover {
+  background-color: #0077cc;
+}
