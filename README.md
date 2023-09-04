@@ -1,3 +1,7 @@
+# Creating a React application by communicating with the Python API.
+![Ekran görüntüsü 2023-08-31 134142](https://github.com/emredogan7878/SpeechAppReact/assets/112003747/29c9b34f-c6f9-4a50-be75-f3cfb8d082e7)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
